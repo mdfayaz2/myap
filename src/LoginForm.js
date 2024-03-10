@@ -17,7 +17,7 @@ export default function Login1() {
 
     return (
         <div>
-            <h1>Login Form 2 fayaz</h1>
+            <h1>Login Form</h1>
             <input type='text' id='t1' placeholder="Username"></input><br /><br />
             <input type='password' id='t2' placeholder="Password"></input><br /><br />
             <button onClick={f1}>Submit</button>
