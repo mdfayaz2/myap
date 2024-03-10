@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mdfayaz2/myap/static/css/main.f855e6bc.css",
-    "main.js": "/mdfayaz2/myap/static/js/main.847c91cf.js",
-    "static/js/453.362bd7cf.chunk.js": "/mdfayaz2/myap/static/js/453.362bd7cf.chunk.js",
-    "static/media/logo.svg": "/mdfayaz2/myap/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/mdfayaz2/myap/index.html",
-    "main.f855e6bc.css.map": "/mdfayaz2/myap/static/css/main.f855e6bc.css.map",
-    "main.847c91cf.js.map": "/mdfayaz2/myap/static/js/main.847c91cf.js.map",
-    "453.362bd7cf.chunk.js.map": "/mdfayaz2/myap/static/js/453.362bd7cf.chunk.js.map"
+    "main.css": "/mdfayaz2/myap.git/static/css/main.f855e6bc.css",
+    "main.js": "/mdfayaz2/myap.git/static/js/main.cf8af6dc.js",
+    "static/js/453.362bd7cf.chunk.js": "/mdfayaz2/myap.git/static/js/453.362bd7cf.chunk.js",
+    "static/media/logo.svg": "/mdfayaz2/myap.git/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/mdfayaz2/myap.git/index.html",
+    "main.f855e6bc.css.map": "/mdfayaz2/myap.git/static/css/main.f855e6bc.css.map",
+    "main.cf8af6dc.js.map": "/mdfayaz2/myap.git/static/js/main.cf8af6dc.js.map",
+    "453.362bd7cf.chunk.js.map": "/mdfayaz2/myap.git/static/js/453.362bd7cf.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.847c91cf.js"
+    "static/js/main.cf8af6dc.js"
   ]
 }
