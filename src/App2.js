@@ -1,31 +1,29 @@
-import React from 'react'
-import Login from './Login'
-import Home from './Home'
-
+import React from "react";
+// import Login from "./Login";
+// import Home from "./Home";
 export default function App2(props) {
-    return props.user ==="" && (
-        <div>
-     <input type='text' placeholder='Name'></input><br></br>
-    <input type='password' placeholder='Password'></input><br></br>
-    <input type='button' value='Login'></input><br></br>
- </div>
-    )
-
-
-
-//     return (props.user===""? <div>
-//     <input type='text' placeholder='Name'></input><br></br>
-//    <input type='password' placeholder='Password'></input><br></br>
-//    <input type='button' value='Login'></input><br></br>
-// </div>: <div>Hello {props.user}</div>)
-   
-//   return (props.user===""? <Login />: <Home userName={props.user}/>)
-   
-    // if(props.user===""){
-    //     return  <Login />
-    // }
-    // else {
-    //     return <Home userName={props.user} />
-    // }
-
+  return props.user === "" && (
+    <div>
+      <h2>Login Form</h2>
+      <p>
+        <input type="text" placeholder="Enter Username"></input>
+      </p>
+      <p>
+        <input type="password" placeholder="Enter Password"></input>
+      </p>
+      <button>Login</button>
+    </div>
+  ) 
 }
+
+// : (
+//     <div>Hello {props.user}</div>
+//   );
+
+// return (props.user==="" ? <Login /> : <Home username={props.user} />);
+
+// if (props.user === "") {
+//     return <Login />;
+//   } else {
+//     return <Home username={props.user} />;
+//   }

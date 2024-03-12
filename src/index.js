@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './App.css';
-import LoginForm from './LoginForm';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App15 from "./App15";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
-  <LoginForm/>
-  </React.StrictMode>
+  <>
+    <App15 />
+  </>
 );

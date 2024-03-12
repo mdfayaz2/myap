@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
 export default function Calc(props) {
-  return (
-    <div>
-        Sum = {props.a}+{props.b} 
-    </div>
-  )
+  let x = props.a;
+  let y = props.b;
+  let z = x + y;
+  return <div>Result is {z}</div>;
 }

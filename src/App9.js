@@ -1,50 +1,23 @@
-import React from 'react'
-import { useState } from 'react'
-
-export default function App8() {
-    const [student , setStudent] = useState({});
-    const [students, setStudents]= useState([]);
-    const addStudent = () =>{
-        setStudents((prevStudents) => [...prevStudents, student]);
-    };
+import React from "react";
+import { useMemo, useState } from "react";
+export default function App9() {
+  const [count, setCount] = useState(0);
+  const [flag, setFlag] = useState(10);
+  const f1 = () => {
+    let i;
+    for (i = 0; i < flag ** 2; i++) {}
+    console.log("f1 function called");
+    return i;
+  };
+    const result = useMemo(() => f1(), [flag]);
+  // const result = f1(); 
   return (
     <div>
-        <p>
-            <input 
-            type="text" 
-            onChange={(e) =>
-            setStudent((prevStudent) => ({
-                ...prevStudent,
-                ...{name: e.target.value},
-            }))
-        }
-        placeholder='Enter name'
-        ></input></p>
-        <p>
-            <input
-            type="text"
-            onChange={(e) =>
-            setStudent((prevStudent) => ({
-                ...prevStudent,
-                ...{age: e.target.value},
-            }))
-            }
-            placeholder='Enter age'
-            ></input>
-        </p>
-        <p>
-            <button onClick={addStudent}>Add Student</button>
-        </p>
-        <div>
-            {
-                students &&
-                students.map((value,index) => {
-                    <div key={index}>
-                        {value.name}-{value.age}
-                        </div>
-                })
-            }
-        </div>
+      <h1>useMemo</h1>
+      <button onClick={() => setCount(count + 1)}>Count:{count}</button>
+      <button onClick={() => setFlag(flag + 1)}>Flag:{flag}</button>
+      <p>Result:{result}</p>
     </div>
-  )
+  );
 }
+
