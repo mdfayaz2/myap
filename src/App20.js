@@ -4,7 +4,7 @@ export default function App20() {
     const GREET=process.env.GREET
   return (
     <div>
-      
+      `${GREET}`
     </div>
   )
 }
