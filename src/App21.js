@@ -13,6 +13,7 @@ function reducer(state, action) {
 }
 export default function App21() {
   const [state, dispatch] = useReducer(reducer, { count: 0 });
+
   function increment() {
     dispatch({ type: "increment" });
   }
